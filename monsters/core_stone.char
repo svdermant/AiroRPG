@@ -1,0 +1,147 @@
+[BaseStats]
+Hp=225
+Tp=50
+Str=1
+Def=$calc($readini(battlestats.dat, Battle, WinningStreak) * 2)
+Int=1
+Spd=1
+Name=Obsidian Core Stone
+
+[Battle]
+Hp=225
+Tp=50
+Str=1
+Def=1
+Int=1
+Spd=1
+Status=alive
+
+[Rage]
+RageBar=0
+RageCountDown=0
+
+[Limit]
+Level=1
+Percent=0
+
+[Descriptions]
+Hused=1
+Dused=1
+Char=The Obsidian Core Chunk is a Hard Material Chunk. Destroy and Defeat him to get the CoreStone.
+Rage=screams in rage
+RepairNaturalArmor=The Obsidian Core is in the process of rebuilding its pillar.
+MonsterSummon=The Obsidian Core summons some of its minions to defend itself. Eliminate them to damage the core.
+DeathMessage=The Obsidian Core has been defeated and falls to the ground. Collect it and bring it back to HQ.
+
+[Stuff]
+RedOrbs=0
+BlackOrbs=1
+ShopLevel=1.0
+Drops=corestone.corestone.corestone
+
+[Info]
+Flag=monster
+Gender=its
+Gender2=its
+password=battlearena
+passhurt=0
+LastSeen=N/a
+LastIP=N/a
+Created=N/a
+ai_type=
+Streak=-10000
+CanTaunt=false
+Guardian=Core_Guardian.Core_Guardian1.Core_Guardian2.Core_Guardian3.Core_Guardian.Core_Guardian4.Core_Guardian5.Core_Guardian6.Core_Guardian7.Core_Guardian8.Core_Guardian9.Core_Guardian10.
+IgnoreElementalMessage=true
+MaxTormentLevel=0
+
+[Monster]
+Type=crystal
+size=large
+
+[Status]
+Poison=no
+HeavyPoison=no
+Regenerating=no
+Blind=no
+Frozen=no
+Shock=no
+Burning=no
+Drowning=no
+Earth-quake=no
+Heavy-Poison=no
+silence=no
+intimidated=no
+weight=no
+poison-heavy=no
+virus=no
+virus.timer=1
+charmed=no
+charmer=noonethatIknowlol
+charm.timer=1
+amnesia=no
+paralysis=no
+amnesia.timer=1
+paralysis.timer=1
+tornado=no
+drunk=no
+drunk.timer=1
+zombie=no
+slow=no
+sleep=no
+stun=no
+MPRegenerating=no
+
+[Weapons]
+Equipped=CoreStonePower
+CoreStonePower=15
+
+[Skills]
+RepairNaturalArmor=$iif($readini($char(core_stone), NaturalArmor, Current) = 0, 1, 0)
+MonsterSummon=$iif($readini($char(core_stone), NaturalArmor, Current) = 0, 1, 0)
+MonsterSummon.Monster=Core_Guardian
+MonsterSummon.Chance=45
+monstersummon.numberspawn=$iif($readini($char(Core_Stone), battle, hp) <= 100, 2, $rand(2,3))
+
+[Techniques]
+ObsidianCoreBeam=$iif($readini($char(core_stone), NaturalArmor, Current) = 0, $calc(1+ $current.battlestreak), 0)
+CoreShockWave=1
+
+[Item_Amount]
+
+[NaturalArmor]
+Name=Core Chunk
+Current=$calc($readini($char(core_stone), BaseStats, HP) * 2)
+Min=0
+Max=$readini($char(core_stone), BaseStats, HP)
+
+[modifiers]
+Heal=none
+Earth=100
+Fire=100
+Wind=100
+Water=100
+Ice=100
+Lightning=100
+Light=120
+Dark=100
+HandToHand=100
+Whip=100
+Sword=100
+Gun=100
+Rifle=100
+Katana=100
+Wand=100
+Spear=120
+Scythe=120
+Glyph=100
+GreatSword=100
+Bow=100
+Axe=100
+Dagger=100
+Dancing=100
+Engine=100
+Mace=100
+PinkChainsaw=100
+Stave=100
+EnergyBlaster=110

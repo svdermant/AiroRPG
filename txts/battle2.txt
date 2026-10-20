@@ -1,0 +1,2 @@
+[BattleInfo]
+PortalOpened=Thu Jul 16 12:31:29 2026

@@ -1,0 +1,22 @@
+{
+  "IRCServer": "igamerpg.de",
+  "IRCPort": 6667,
+  "IRCChannel": "#AiroRPG",
+  "IRCNick": "IrcBot",
+  "IRCAuthUser": "NickServ",
+  "IRCLoginName": "IrcBot",
+  "IRCLogMessages": true,
+  "IRCAuthString": "/msg NickServ Identify maxmolda",
+  "DiscordBotToken": "MTA2NjAwMjI5MDc3Njk5ODAwMA.G40EFL.jqw6_eOo4poFcXyiMU_ZIZM66konq8Zmtuzz2E",
+  "DiscordGuildName": "703687127061495919",
+  "DiscordChannelName": "#airorpg",
+  "SpamFilter": [
+  ],
+  "IRCNameBlacklist": [
+  ],
+  "DiscordUserIDBlacklist": [
+  ],
+  "StikkedCreateUrlAndKey": "",
+  "HideDiscordNames": false,
+  "HideIRCNames":  false
+}

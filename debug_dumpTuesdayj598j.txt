@@ -1,0 +1,143 @@
+[variables]
+n0=%player_folder characters\
+n1=%boss_folder bosses\
+n2=%monster_folder monsters\
+n3=%npc_folder npcs\
+n4=%zapped_folder zapped\
+n5=%help_folder help-files\
+n6=%summon_folder summons\
+n7=%battlechan #AiroRPG
+n8=%bot.owner Serkons
+n9=%bot.name AiroRPG
+n10=%helper Kibit
+n11=%first.run false
+n12=%battleis off
+n13=%battleisopen off
+n14=;--------------------------------------------DO NOT REMOVE VARIABLES ABOVE THIS LINE---------------------------------------------------
+n15=%file.name Serkons
+n16=%status-nick registered
+n17=%ignore.clearfiles yes
+n18=%player.enhancementpointsspent 55
+n19=%new.topic Turnbased Strategic Action RolePlaygame - Join and fight against the evil hordes of enemys - Game Version 4.1 Beta - Docu: https://igamerpg.de/docu/index.php?title=AiroRPG | [Current Auction: Cavier]
+n20=%hq-gen-chance 0
+n21=%random.chance-hq 23
+n22=%moon.phase Quarter Moon
+n23=%timeofday.turn.max
+n24=%status.message2 3[4Serkons's 3Attributes are [ STR: 7 160 3DEF: 7 226 3INT: 7 93 3SPD: 7 55 3]
+n25=%status.message3 3[Has a Natural Armor: 7No 3]3[ Can also use 11(7 1 11) 3 Techs actually 3] 3[ Has no Drops 3]
+n26=%status.message4 3[Status Effects:4 03Normal 3] [Active Skills:4 0402Blood Boost3]
+n27=%dname Nexon_banston
+n28=%mon-list SuperElite_Blue_Bones.Ruby_Quadav.Armored_Dark_Knight.Demon_Knight.ElderCount.SuperElite_Ding_Bats.SuperElite_Mosquito.Naugthy_Leprechaun.SuperElite_Starman_Junior.Armored_BlackPudding
+n29=%n1 10
+n30=%n2 10
+n31=%mon-to-add1 Armored_BlackPudding
+n32=%rand.chance 77
+n33=%restorechance 23
+n34=%bossroom1 true
+n35=%dfolder C:\BattleArena-Modified\dungeons\
+n36=%rooms1 15
+n37=%froom1 14
+n38=%v 13
+n39=%chestraum 11
+n40=%restroom 4
+n41=%bleed.chance 85
+n42=%CriticalCut.chance 20
+n43=%flag1
+n44=%dropchance3 9
+n45=%drop.chance.item 2
+n46=%atchance 34
+n47=%players.list Serkons
+n48=%winner.flag1
+n49=%augline 17
+n50=%augs HurtSlime.HurtElemental.HurtLizard.HurtBat.HurtWorm.HurtCrab.HurtAndroid.HurtPlant.HurtTreant.HurtGoblin.HurtQuadav.HurtYagudo.HurtOrc.HurtDemon.HurtZombie.HurtUndead.HurtDragon.IncreaseLimitBreakMeter.IncreaseIGGainRate.DecreaseMechEnergyCost.EnhanceKillerTraits.EnhanceDragonHunt.EnhanceElementalDefense.EnhanceStylePoints.EnhanceCriticalHits.EnhanceDagger.EnhanceScythe.EnhanceAxe.EnhanceStaff.EnhanceWand.EnhanceGlyph.EnhanceWhip.EnhanceSpear.EnhanceRanged.EnhanceKatana.EnhanceSword.EnhanceHandToHand.EnhanceEnfeeble.EnhanceWeaponBash.EnhanceCriticalCut.EnhanceZen.EnhanceAggressor.EnhanceDefender.EnhanceTreasureHunter.EnhanceSteal.EnhanceScavenge.EnhanceThirdEye.EnhanceMeditate.EnhanceSpeed.EnhanceBloodSpirit.EnhanceBloodBoost.EnhanceBloodpact.UtsusemiBonus.EnhanceBlocking.EnhanceCounter.EnhanceParry.EnhanceDodge.EnhanceItems.EnhanceSummons.EnhanceCrafting.Drain.AbsorbIG.AbsorbTP.GemConvert.AdditionalHit.CuringBonus.MagicBonus.TechBonus.MeleeBonus.RenkeiBonus.IgnoreDefense.IgnoreGuardian.IgnoreMetalDefense.HurtEthereal.EnhanceDoubleTurnChance.AutoReraise
+n51=%equipmentprefix1 Vodoun_Vampire
+n52=%random.location 4
+n53=%location-a feet
+n54=%aSellprice 314
+n55=%aLevel 8
+n56=%protection-a 7.7
+n57=%current.equipped nothing
+n58=%mid.vert.current.eq 0
+n59=%eq-hp 0
+n60=%eq-tp 0
+n61=%eq-str 0
+n62=%eq-def 0
+n63=%eq-int 0
+n64=%eq-spd 0
+n65=%dark->ness 16
+n66=%cur.turn 1
+n67=%rarity 15
+n68=%diff 1
+n69=%gerade 6.11.16.21.26
+n70=%m 15.25
+n71=%varchance2a 10
+n72=%ahp 961
+n73=%atp 137
+n74=%adef 961
+n75=%aint 412
+n76=%astr 412
+n77=%aspd 1235
+n78=%current.aug 76
+n79=%mid.vert.new.eq 2677
+n80=%seltenheit 7(4 Rare 7)
+n81=%nick Serkons
+n82=%dropchance2 40
+n83=%moweap nadeln
+n84=%techname nadelshot
+n85=%monname Igel
+n86=%montech
+n87=%existtech SINGLE
+n88=%t1 Tauntpower
+n89=%create.mon.Serkons on
+n90=%stealchance 25
+n91=%stealpercent 84
+n92=%orbsstolen 172727
+n93=%catchchance 27
+n94=%targethp 150
+n95=%30percent 45
+n96=%targethp2 50
+n97=%30percent2 45
+n98=%newhp2 15
+n99=%targetbattlehp2 4
+n100=%catchchance2 17
+n101=%percent2 15
+n102=%mon.name2 Bee
+n103=%mon.need 6
+n104=%hpadd 1600
+n105=%dungfile CreatedDungeon
+n106=%ignition.cost 0
+n107=%taunt.action true
+n108=%inti 59
+n109=%randa .39
+n110=
+n111=
+n112=%all_status2
+n113=%resist-bleed1 100
+n114=
+n115=%percent.hp.current2 20
+n116=%hp.base 2600
+n117=%total.items 1
+n118=//
+n119=//  
+n120=%current.battlefield Northpole
+n121=%random 2
+n122=%tech.count 0
+n123=%tech.power
+n124=%random.chance1 233
+
+[users]
+n0=1:SXL
+n1=1:AiroRPG
+n2=100:Serkons
+------------------------------------------------------
+debug location: ai.monstersummon
+battlefield: Northpole
+battlefield event number:
+boss type:
+portal bonus:
+holy.aura:
+five min warning:
+battle.rage.darkness:
+battle conditions:
+ai target:
+ai tech: fgolemjump

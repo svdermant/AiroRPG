@@ -1,0 +1,10 @@
+irc.igamerpg.de Thu Feb 06 13:05:34 2025
+#opers 7 [+nrtPR] Netzwerk Minarbeiterchannel - Zutritt nur für Befugte!...
+#Support 6 [+lnrtP] Hauptchannel des Netzwerkes - Fragen stellen und auf antwort warten. - Don't Spam - Jetzt neu - !ticket
+#Bot-Lounge 4 [+ntPR] 
+#test 0 [+ntPR] 
+#AiroRPG 2 [+nrtPR] | [Current Auction: DragonCharm]
+#myppb 1 [+ntPR] 
+#Bot-Spam 1 [+ntPR] 
+#Aygon-Help 1 [+ntPR] 
+#testa 0 [+ntPR] 
